@@ -420,4 +420,5 @@ out/
 **/.DS_Store
 **/._.DS_Store
 
-dataset/*
+dataset/*.txt
+dataset/*.csv
