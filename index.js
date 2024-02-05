@@ -74,10 +74,10 @@ app.post('/readTags', async function (req, res, next) {
 });
 
 app.get('/logs', function (req, res, next) {
-    // let str = '';
-    // for (let i = 0; i < logs.length; i++) {
-    //     str += '<p>' + logs[i] + '</p>';
-    // }
+    let str = '';
+    for (let i = 0; i < logs.length; i++) {
+        str += '<p>' + logs[i] + '</p>';
+    }
 
     // res.send(str);
     res.sendStatus(403);
