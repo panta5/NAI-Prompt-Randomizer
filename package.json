@@ -1,33 +1,38 @@
 {
-  "name": "nai-prompt-randomizer",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JioChoi/NAI-Prompt-Randomizer.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JioChoi/NAI-Prompt-Randomizer/issues"
-  },
-  "homepage": "https://github.com/JioChoi/NAI-Prompt-Randomizer#readme",
-  "dependencies": {
-    "argon2-browser": "^1.18.0",
-    "blakejs": "^1.2.1",
-    "body-parser": "^1.20.2",
-    "buffer": "^6.0.3",
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "express-status-monitor": "^1.3.4",
-    "http": "^0.0.1-security",
-    "https": "^1.0.0",
-    "rate-limiter-flexible": "^4.0.0",
-    "request": "^2.88.2",
-    "unzipit": "^1.4.3"
-  }
+    "name": "nai-prompt-randomizer",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/panta5/NAI-Prompt-Randomizer.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/panta5/NAI-Prompt-Randomizer/issues"
+    },
+    "homepage": "https://github.com/panta5/NAI-Prompt-Randomizer#readme",
+    "dependencies": {
+        "argon2-browser": "^1.18.0",
+        "blakejs": "^1.2.1",
+        "body-parser": "^1.20.2",
+        "buffer": "^6.0.3",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "express-status-monitor": "^1.3.4",
+        "rate-limiter-flexible": "^4.0.0",
+        "request": "^2.88.2",
+        "unzipit": "^1.4.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.1.3",
+        "prettier": "^3.2.5"
+    }
 }
